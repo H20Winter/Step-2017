@@ -1,4 +1,4 @@
-answer = 47
+answer = random.radint(43, 1000)
 
 guess = int(input("input a number 0 to 1000: "))
 
