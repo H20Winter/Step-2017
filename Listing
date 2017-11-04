@@ -1,0 +1,4 @@
+ting = ["skrrrahh",'pa','pa','ka','ka','ka','skibiki','pap','pap','and','a','pu','pu','prudrrr','boom']
+i = 0
+for i in range(len(ting)):
+    print(ting[i])
