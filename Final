@@ -1,1 +1,18 @@
+lose = false
+while lose == "false":
+    guess = int(input("You are in a room what you do. 1:suicide with rope. 2:meme. 3:open the door. 4:get drunk"))
 
+if guess is 1:
+    print ("You died and went to hell where you will be stuck with the pain of birth")
+    lose = true
+    
+if guess is 2:
+    print ("You memed so hard you memed into another room")
+    
+if guess is 3:
+    print("you opened the door and find youself in the worse place in the world. Forever stuck in a room where the every surface is filled with speakers playing baby baby oh")
+    lose = true
+
+if guess is 4:
+    print("you got so drunk the first thing you see is an angry mob and a volcano. You were thrown in the volcano and burned")
+    lose = true
