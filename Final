@@ -1,18 +1,57 @@
-lose = false
-while lose == "false":
-    guess = int(input("You are in a room what you do. 1:suicide with rope. 2:meme. 3:open the door. 4:get drunk"))
+lose = "true"
+loss = "true"
+death = "true"
+
+
+guess = int(input("You are in a room what you do. 1:call 911 2:meme. 3:open the door. 4:quit ->"))
 
 if guess is 1:
-    print ("You died and went to hell where you will be stuck with the pain of birth")
-    lose = true
+    print ("Just as you were about to you were sent a video of memes and you fell into a meme spiral")
     
 if guess is 2:
-    print ("You memed so hard you memed into another room")
-    
-if guess is 3:
-    print("you opened the door and find youself in the worse place in the world. Forever stuck in a room where the every surface is filled with speakers playing baby baby oh")
-    lose = true
+    print ("You memed too hard")
 
 if guess is 4:
-    print("you got so drunk the first thing you see is an angry mob and a volcano. You were thrown in the volcano and burned")
-    lose = true
+    print("you quit. The end")
+
+if guess is 3:
+    lose = "no"
+    print("you opened the door and find yourself in a room with a hole what do you do. ")
+    
+if lose is "no":
+    guess = int(input("1:jump in  the hole 2:open the next door 3:ponder 4:look in the hole ->"))
+    lose = "true"
+    
+    
+    if guess is 2:
+        print("The door opened and a giant space octopus grabbed you and ate you")
+        
+    if guess is 3:
+        print("you decided not to go in the hole but then you were sucked in")
+        loss = "false"
+        
+    else:
+        print("you were sucked into the hole")
+        loss = "false"
+        
+if loss is "false":
+    guess = int(input("you fell into the world of half life 1:run from muderous aliens 2:be with Gordon Freeman 3:be Gordon Freeman 4:Be an alien ->"))
+    loss is "true"
+    
+    if guess is 1:
+        print("insert running in the 90's music until you got caught be a headcrab which turned you into a headcrab zombie")
+        
+    
+    if guess is 4:
+        print("Gordon freeman kills you")
+        
+    if guess is 3:
+        print("You could not become Gordon Freeman so you are with Gordon Freeman")
+        death = "false"
+    if guess is 2 or 3:
+        print("Gordon Freeman killed the aliens and you followed him to the final boss which he killed")
+        death = "false"
+        
+if death is "false":
+    guess = int(input("1: 2: 3: 4: ->"))
+    death is true
