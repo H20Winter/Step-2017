@@ -59,12 +59,14 @@ if death is "false":
     death is "true"
     
     
-    if guess is 3 or 4:
-        print("he says ''you aren't smart enough to live'' and he banishes you to limbo")
-    
+   
     if guess is 2:
         print("You are truly smart you have won. ending 1 out of 2")
         
     if guess is 1:
         print("''you are smart. Where do you wish to go. You decided to go home and you were teloported home you won. ending 2 out of 2''")
         meme is "false"
+    
+    if guess is 3 or 4:
+        print("he says ''you aren't smart enough to live'' and he banishes you to limbo")
+    
